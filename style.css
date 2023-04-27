@@ -1,0 +1,35 @@
+.pages-list{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+.photo{
+    width: 200px;
+}
+.cards {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.card {
+    border: 1px solid rgb(255, 0, 0);
+    width: 550px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 1s;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px 3px rgb(232, 114, 114);
+    transform: scale(1.05) ;
+
+}
+img {
+    width: 100%
+}
+.main-article{
+    text-indent: 20px;
+}
