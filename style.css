@@ -1,3 +1,17 @@
+body{
+    background-color: dimgray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+li { 
+    padding-bottom: 24px;
+}
+
 .pages-list{
     display: flex;
     gap: 100px;
@@ -5,9 +19,20 @@
     list-style: none;
     text-decoration: none;
 }
+
+.page-link {
+    font-size: 25px;
+}
+
+.page-link.active {
+    text-decoration: underline;
+    text-decoration-color: rgb(100, 195, 114);
+}
+
 .photo{
     width: 200px;
 }
+
 .cards {
     list-style: none;
     display: flex;
@@ -15,21 +40,31 @@
     justify-content: center;
     gap: 50px;
 }
+
 .card {
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid rgb(100, 195, 114);
     width: 550px;
     border-radius: 15px;
     overflow: hidden;
     transition: transform 1s;
+    background-color: rgb(152, 235, 196);
+    text-align: center;
 }
+
 .card:hover{
-    box-shadow: 0px 0px 10px 3px rgb(232, 114, 114);
+    box-shadow: 0px 0px 10px 3px rgb(0, 255, 85);
     transform: scale(1.05) ;
 
 }
+
 img {
     width: 100%
 }
+
 .main-article{
     text-indent: 20px;
+}
+p{
+    text-align: center;
+    margin-top: 50px;
 }
